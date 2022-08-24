@@ -23,4 +23,4 @@ Do not edit or modify interstitial ads in any way without Facebook’s written a
 # Error (Interstitial ad failed to load: No fill)
 * Solution
 * 1. Enter device in logcat show the device hash id
-* 2. Copy this line and add in onCreate Method (AdSettings.addTestDevice("e0cdba17-f6a1-4beb-82e1-d0b0b1a9a8ff");)
+* 2. Copy this line and add in onCreate Method (AdSettings.addTestDevice("Use ur own hash id");)
