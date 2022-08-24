@@ -13,3 +13,14 @@ Avoid placing banner / medium rectangle ads over text, image, and other clickabl
 Only include one ad per page or show one ad at a time if scrolling.
 Avoid placing banner / medium rectangle ads in an area that interrupts the natural flow of the app to prevent accidental clicks.
 Do not edit or modify banner / medium rectangle ads in any way without Facebook’s written approval.
+
+# Interstitial Ads (Working of IA)
+* An interstitial is a full screen ad that appears at a natural transition point in your app.
+* Interstitial ads must not be implemented in such a way that may surprise users or interrupt the natural flow of the app. They should be placed in between natural breaks in the experience of your app. For example, interstitial ads should be shown between levels or stages for gaming apps and are not permitted on placements such as app load, exit pages or in the middle of game play.
+The call-to-action must be shown in a way that when a user clicks on the ad it is intentional.
+Do not edit or modify interstitial ads in any way without Facebook’s written approval.
+
+# Error (Interstitial ad failed to load: No fill)
+* Solution
+* 1. Enter device in logcat show the device hash id
+* 2. Copy this line and add in onCreate Method (AdSettings.addTestDevice("e0cdba17-f6a1-4beb-82e1-d0b0b1a9a8ff");)
