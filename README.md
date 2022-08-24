@@ -31,4 +31,9 @@ AdSettings.addTestDevice("HASHED ID");.
 * https://developers.facebook.com/docs/audience-network/guides/ad-formats/native
 * https://developers.facebook.com/docs/audience-network/setting-up/ad-setup
 * ![image](https://user-images.githubusercontent.com/107309494/186504643-89fd3e95-a3a5-49f8-be56-1f7d8ecbcb87.png)
+* Step 1: Requesting a Native Ad
+* Step 2: Creating your Native Ad Layout
+* Step 3: Populating your Layout Using the Ad's Metadata
+* Step 4: Using MediaView
+* Setp 5: Load Ad without Auto Cache
 
