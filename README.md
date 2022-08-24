@@ -26,3 +26,9 @@ Do not edit or modify interstitial ads in any way without Facebook’s written a
 * 2. Copy this line and add in onCreate Method (AdSettings.addTestDevice("Use ur own hash id");)
 * Plus Point If you are using the default Google Android emulator, you'll add the following line of code before loading a test ad:
 AdSettings.addTestDevice("HASHED ID");.
+
+# Native Ad (Working)
+* https://developers.facebook.com/docs/audience-network/guides/ad-formats/native
+* https://developers.facebook.com/docs/audience-network/setting-up/ad-setup
+* ![image](https://user-images.githubusercontent.com/107309494/186504643-89fd3e95-a3a5-49f8-be56-1f7d8ecbcb87.png)
+
