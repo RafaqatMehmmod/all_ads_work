@@ -24,3 +24,5 @@ Do not edit or modify interstitial ads in any way without Facebook’s written a
 * Solution
 * 1. Enter device in logcat show the device hash id
 * 2. Copy this line and add in onCreate Method (AdSettings.addTestDevice("Use ur own hash id");)
+* Plus Point If you are using the default Google Android emulator, you'll add the following line of code before loading a test ad:
+AdSettings.addTestDevice("HASHED ID");.
