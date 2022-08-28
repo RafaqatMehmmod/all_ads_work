@@ -36,4 +36,19 @@ AdSettings.addTestDevice("HASHED ID");.
 * Step 3: Populating your Layout Using the Ad's Metadata
 * Step 4: Using MediaView
 * Setp 5: Load Ad without Auto Cache
+# Native Banner Ad (Working)
+* The native banner ad API allows you to build a customized experience for showing a native ad without the advertiser's creative assets, such as image, video, or carousel content.
+* In this guide we will implement the following native banner ad placement. You will create a native banner ad with the following components:
 
+* View #1: AdOptionsView
+* View #2: Sponsored Label
+* View #3: Ad Icon
+* View #4: Ad Title
+* View #5: Social Context
+* View #6: Call-to-Action button
+![image](https://user-images.githubusercontent.com/107309494/187078224-b68a4375-b50f-4556-be85-15dffd3524c8.png)
+
+* Native Banner Ad Steps
+* Step 1: Requesting a Native Banner Ad
+* Step 2: Creating your Native Banner Ad Layout
+* Step 3: Populating your Layout Using the Ad's Metadata
