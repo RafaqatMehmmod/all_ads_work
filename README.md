@@ -1,5 +1,5 @@
 # all_ads_work
-#.........Simple Facebook Ads Steps.........
+# .........Simple Facebook Ads Steps.........
 # Step 1 (Add Dependencies)
 * https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/android/add-sdk
 
@@ -58,3 +58,20 @@ AdSettings.addTestDevice("HASHED ID");.
 # Step-by-Step
 * Step 1: Initializing Rewarded Video Ads in your Activity
 * Step 2: Showing Rewarded Video Ads in your Activity
+# .........Simple ADMOB Ads Steps.........
+# Step 1 (Add Dependencies)
+* https://developers.google.com/admob/android/quick-start#java
+
+# Step 2 (Add Manifest Metadata)
+*   <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>
+
+# Step 3 ( Initialize SDK Only One Time Using Helper Class)
+*  MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
