@@ -48,7 +48,13 @@ AdSettings.addTestDevice("HASHED ID");.
 * View #6: Call-to-Action button
 ![image](https://user-images.githubusercontent.com/107309494/187078224-b68a4375-b50f-4556-be85-15dffd3524c8.png)
 
-* Native Banner Ad Steps
+# Native Banner Ad Steps
 * Step 1: Requesting a Native Banner Ad
 * Step 2: Creating your Native Banner Ad Layout
 * Step 3: Populating your Layout Using the Ad's Metadata
+
+# Rewarded Video Faceboook Ads ( Working ) 
+* Rewarded video ads are a full screen experience where users opt-in to view a video ad in exchange for something of value, such as virtual currency, in-app items, exclusive content, and more. The ad experience is 15-30 second non-skippable and contains an end card with a call to action. Upon completion of the full video, you will receive a callback to grant the suggested reward to the user.
+# Step-by-Step
+* Step 1: Initializing Rewarded Video Ads in your Activity
+* Step 2: Showing Rewarded Video Ads in your Activity
